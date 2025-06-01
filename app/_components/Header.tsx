@@ -36,16 +36,6 @@ function Header() {
                   href="#"
                 >
                   {" "}
-                  History{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-white transition hover:text-gray-100"
-                  href="#"
-                >
-                  {" "}
                   Services{" "}
                 </a>
               </li>
