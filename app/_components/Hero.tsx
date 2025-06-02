@@ -2,24 +2,25 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="bg-black h-screen lg:grid">
+    <section className="bg-black">
       <div className="flex items-baseline justify-center pt-15">
-        <h2 className="text-white border-3 px-6 py-2 border-indigo-500 rounded-4xl text-sm shadow-[5px_5px_40px_5px_rgba(138,_43,_226,_0.4)]">
+        <h2 className="text-white border-3 px-6 py-2 border-indigo-500 rounded-4xl text-sm shadow-[5px_5px_40px_15px_rgba(138,_43,_226,_0.4)]">
           Introducing Visual Thinking Pad ✨
         </h2>
       </div>
-      <div className="mx-auto w-screen max-w-screen-xl px-4 sm:px-6 sm:py-6 lg:px-8 lg:py-10">
+      <div className="mx-auto h-screen max-w-screen-xl px-4 py-25 lg:flex">
         <div className="mx-auto max-w-prose text-center">
-          <h1 className="text-4xl font-medium text-white sm:text-5xl tracking-tight">
-            Note & Diagrams for better
-            <strong className="bg-gradient-to-r from-emerald-500 to-indigo-500 bg-clip-text text-transparent">
+          <h1 className="text-3xl text-white font-semibold sm:text-5xl leading-15">
+            Notes & diagrams for better
+            <strong className="bg-gradient-to-r from-emerald-500 to-indigo-500 bg-clip-text text-transparent font-bold">
               {" "}
-              Visual Experience{" "}
+              Visual Experience.{" "}
             </strong>
           </h1>
 
-          <p className="mt-4 text-base text-pretty text-gray-400 sm:text-lg/relaxed">
-            Markdown Editor with Canvas for Ideas
+          <p className="mt-4 sm:text-xl/relaxed text-slate-200">
+            All-in-one markdown editor, collaborative canvas, and
+            diagram-as-code builder
           </p>
 
           <div className="mt-4 flex justify-center gap-4 sm:mt-6">
